@@ -47,6 +47,7 @@ public class SparqlClientRequests {
 		}
 	}
 
+	/*
 	private static void nbPersonnesParPiece(SparqlClient sparqlClient) {
 		String query = "PREFIX : <http://www.lamaisondumeurtre.fr#>\n"
 				+ "SELECT ?piece (COUNT(?personne) AS ?nbPers) WHERE\n" + "{\n"
@@ -59,6 +60,7 @@ public class SparqlClientRequests {
 					+ result.get("nbPers"));
 		}
 	}
+	*/
 
 	public static ArrayList<String> getSynonymes(SparqlClient sc, String mot) {
 		ArrayList<String> synonymes = new ArrayList<String>();
